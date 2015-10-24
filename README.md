@@ -1,8 +1,6 @@
 # Node.js - Toolbox
 Sample node.js Package to demonstrate javascript as command line scripting language
 
-
-
 # Working with Node.js
 
 ## Start a node.js application
