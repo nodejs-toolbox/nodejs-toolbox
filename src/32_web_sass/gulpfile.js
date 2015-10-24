@@ -1,4 +1,7 @@
 /*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
  */
 
 var gulp   = require('gulp');
@@ -21,17 +24,18 @@ gulp.task('compile', ['clean:css'], function () {
 });
 
 
-// TASK: Watch
+// create a watcher to watch the source files for changes and execute the
+// sass task after every change.
 gulp.task('watch', function () {
     gulp.watch('src/*.scss', ['sass']);
 });
 
-// TASK: Build
 gulp.task('build', [
     'compile'
 ]);
 
-// TASK: Default
+// that's it for our task, we can now define a default task that described the
+// workflow for our tasks.
 gulp.task('default', [
     'compile',
     'watch'

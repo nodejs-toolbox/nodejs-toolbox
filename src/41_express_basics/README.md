@@ -1,9 +1,9 @@
 
-# Node.JS - Working with Expres Web Framework
+# Node.JS - Basics
 
 # Setup Environment
 ```
-npm -g install ...
+$ npm -g install 
 
 ```
 
@@ -11,5 +11,5 @@ npm -g install ...
 # Setup Project
 
 ```
-
+$ npm install --save-dev
 ```

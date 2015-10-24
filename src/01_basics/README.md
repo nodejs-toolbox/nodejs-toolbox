@@ -3,7 +3,7 @@
 
 # Setup Environment
 ```
-npm -g install express express-generator
+npm -g install gulp
 
 ```
 
@@ -11,6 +11,5 @@ npm -g install express express-generator
 # Setup Project
 
 ```
-grunt concat
-grunt concat:deploy
+npm install --savedev gulp
 ```
